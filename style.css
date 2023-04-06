@@ -126,15 +126,19 @@ header {
 
 
 .search__container {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
+  padding-top: 64px;
+}
+     
+.search__title {
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  color: #1586C2;
 }
      
 .search__input {
-  width: 200%;
+  width: 600px;
   padding: 12px 24px;
-  margin: 20px 0 50px 0;
   background-color: transparent;
   transition: transform 250ms ease-in-out;
   font-size: 14px;
@@ -147,10 +151,7 @@ header {
   background-position: 95% center;
   border-radius: 50px;
   border: 1px solid #575756;
-  transition: all 250ms ease-in-out;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-}
+}  
 
 
 #msform {
