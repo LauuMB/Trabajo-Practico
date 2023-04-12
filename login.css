@@ -1,9 +1,9 @@
 .imgLogin{
   position: absolute;
-  width: 314px;
-  height: 308px;
-  left: 60px;
-  top: 300px;
+  width: 414px;
+  height: 508px;
+  left: 297px;
+  top: 239px;
   border: 5px solid #000000;
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 7px;
@@ -19,7 +19,7 @@
   /* width: 60%;
   margin: -50% 40%;  */
   padding: 20px 30px;
-  left: 200px;
+  left: 450px;
   width: 400px;
   margin: 40px auto;
 
@@ -41,7 +41,7 @@
 }
 
  #login .action-button {
-  width: 150px;
+  width: 200px;
   background: #fbc31a;
   font-weight: bold;
   color: white;
