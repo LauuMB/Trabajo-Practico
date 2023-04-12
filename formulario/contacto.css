@@ -74,6 +74,7 @@ input::placeholder, textarea::placeholder {
     background-color: #e9b518;
 }
 
+
 @media(max-width:991px) {
 
     body {
