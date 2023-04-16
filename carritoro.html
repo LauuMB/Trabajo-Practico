@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Comic Store</title>
+    <link rel="website icon" type="png" href="https://i.ibb.co/8gvQjhd/logo.png">
+</head>
+<body>
+    
+    <header id="header" class="header">
+
+        <img class="logonav" src="https://i.ibb.co/CKCSnrM/logo.png" alt="">
+        <!-- <h2 class="logo">Comic Store</h2>  -->
+        <input type="checkbox" id="check">    
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>  
+
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">nosotros</a>
+            <a href="#">Iniciar Sesión</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>                      
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                              </svg>
+                                <div id="carrito">
+                                        
+                                        <table id="lista-carrito" class="u-full-width">
+                                            <thead>
+                                                <tr>
+                                                    <th>Imagen</th>
+                                                    <th>Nombre</th>
+                                                    <th>Precio</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+    
+                                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </header>
+    
+        
+        <div id="lista-cursos" class="container">
+            <h1 id="encabezado" class="encabezado">Nuestra selección</h1>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/44D7pHf/manga36.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>TOKYO REVENGERS 03</h4>
+                            <p class="precio"><span class="u-pull-right ">$1.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/Cm6jW1b/manga1.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>ATTACK ON TITAN 03</h4>
+                                <p class="precio"><span class="u-pull-right ">1.900</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/4MXd4cB/manga31.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>RANMA 1/2 05</h4>
+                                <p class="precio"><span class="u-pull-right ">$2.000</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/YThQxHQ/manga27.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>ONE PIECE 66</h4>
+                            <p class="precio"><span class="u-pull-right ">$1.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/Bz468wC/manga19.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>FULLMETAL ALCHEMIST 01</h4>
+                                <p class="precio"><span class="u-pull-right ">$1.900</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/0XVc2pv/manga17.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>DRAGON BALL 16</h4>
+                                <p class="precio"><span class="u-pull-right ">$3.000</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>   
+            </div>
+
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/znWd7pp/dc23.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>HORA CERO: CRISIS EN EL TIEMPO</h4>
+                            <p class="precio"><span class="u-pull-right ">$6.850</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/10mFDGF/dc15.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>BATMAN: LA BROMA ASESINA</h4>
+                                <p class="precio"><span class="u-pull-right ">$4.550</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                            </div>
+                        </div> 
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/64TsQTg/dc8.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>ACTION COMICS VOL.3: HOMBRES DE ACERO</h4>
+                                <p class="precio"><span class="u-pull-right ">$4.300</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/RHNRtvP/dc1.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>GREEN LANTERN: BLACKSTARS</h4>
+                                <p class="precio"><span class="u-pull-right ">$5.300</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="https://i.ibb.co/9pYyHFw/174022807-284169193247949-3163669468822465065-n.jpg" class="imagen-curso u-full-width">
+                                <div class="info-card">
+                                    <h4>NIGHTWING: SALTANDO A LA LUZ</h4>
+                                    <p class="precio"><span class="u-pull-right ">$4.550</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="https://i.ibb.co/f8X0bLh/dc17.jpg" class="imagen-curso u-full-width">
+                                <div class="info-card">
+                                    <h4>CRISIS INFINITA</h4>
+                                    <p class="precio"><span class="u-pull-right ">$6.950</span></p>
+                                    <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                                </div>
+                            </div> 
+                    </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/J7Y0gX0/jrr2.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>LA CAÍDA DE GONDOLIN</h4>
+                            <p class="precio"><span class="u-pull-right ">$8.150</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/svZMW5b/jrr12.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>EL HOBBIT</h4>
+                                <p class="precio"><span class="u-pull-right ">$4.900</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/ZcjFDPr/jrr8.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>EL SEÑOR DE LOS ANILLOS EL RETORNO DEL REY</h4>
+                                <p class="precio"><span class="u-pull-right ">$7.700</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/R7JgTCQ/jrr7.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>EL SEÑOR DE LOS ANILLOS LA COMUNIDAD DEL ANILLO</h4>
+                            <p class="precio"><span class="u-pull-right ">$2.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/98Tq8b2/jrr6.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>EL SEÑOR DE LOS ANILLOS LAS DOS TORRES</h4>
+                                <p class="precio"><span class="u-pull-right ">$7.700</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/Y7BgkQB/jrr5.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>CUENTOS INCONCLUSOS DE NÚMENOR Y LA TIERRA MEDIA</h4>
+                                <p class="precio"><span class="u-pull-right ">$12.200</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/DkggcBc/marvel35.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>BEN REILLY: SPIDERMAN Vol1</h4>
+                            <p class="precio"><span class="u-pull-right ">$8.500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/Wf0GPcz/marvel32.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>AVENGERS SIN RETORNO</h4>
+                                <p class="precio"><span class="u-pull-right ">$1.800</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/BBnCdKt/marvel27.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>CAPITAN AMERICA RECUPERANDO LA LIBERTAD</h4>
+                                <p class="precio"><span class="u-pull-right ">$2.100</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/KbwH9XB/marvel18.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>X-MEN RESURRECION DE FENIX</h4>
+                            <p class="precio"><span class="u-pull-right ">$2.350</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/CtbfN9C/marvel26.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>DEADPOOL ¿DEMASIADO PRONTO?</h4>
+                                <p class="precio"><span class="u-pull-right ">$2.200</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/C80hQ3v/marvel10.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>LA RED DE LA VIUDA NEGRA</h4>
+                                <p>Juan Pedro</p>
+                                <img src="http://programacion.net/files/article/20160811120805_estrellas.png" width="50">
+                                <p class="precio"><span class="u-pull-right ">$1.900</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/r6ndr83/9788416308149.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>STAR WARS Nº 1</h4>
+                            <p class="precio"><span class="u-pull-right ">$2.100</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/YbLYRFS/1507-1.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>STAR WARS VOL 10 LA FUGA</h4>
+                                <p class="precio"><span class="u-pull-right ">$2.000</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> 
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/hM0jmfm/e044c4b0d691d2e7015f1b6e2fcf2800.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>DARTH VADER VOL1 - VADER</h4>
+                                <p class="precio"><span class="u-pull-right ">$2.400</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="https://i.ibb.co/Z2br1RY/9788408237044.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>THE MANDALORIAN. LA NOVELA</h4>
+                            <p class="precio"><span class="u-pull-right ">$3.200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/8jjKRjg/9788411403924.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>STAR WARS. OBI-WAN KENOBI</h4>
+                                <p class="precio"><span class="u-pull-right ">$3.000</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> 
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="https://i.ibb.co/7bPZqjp/9788491467786.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>STAR WARS: DARTH MAUL</h4>
+                                <p class="precio"><span class="u-pull-right ">$2.500</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>      
+
+    <footer class="footer Container">
+        <img class="logo-2" src="https://i.ibb.co/CKCSnrM/logo.png" alt="logo de la empresa">
+        <div class="links">         
+            <h4>Consultas</h4>
+            <ul>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Como comprar</a></li>
+                <li><a href="#">Inicia sesión</a></li>
+                <li><a href="#">Novedades</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Contacto</h4>
+            <ul>
+                <li><a href="#">comicstore@gmail.com</a></li>
+                <li><a href="#">Av. Siempreviva 742</a></li>
+                <li><a href="#">Tel: +54 939-636</a></li>                
+            </ul>
+        </div>
+
+
+
+        <div class="links">
+            <h4>Redes</h4>
+            <div class="socials">
+                <a href="https://www.instagram.com/">
+                    <div class="social">
+                        <img src="https://i.ibb.co/z8B1GzX/instagram.png" alt="">
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/">
+                    <div class="social">
+                        <img src="https://i.ibb.co/bbJbjZv/facebook.png" alt="">
+                    </div>
+                </a>
+                <a href="https://twitter.com/">
+                    <div class="social">
+                        <img src="https://i.ibb.co/gzjBXB8/gorjeo.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>    
+    </footer>
+
+    <section>
+        <div class="copy">
+            <p> Comic Store ©2023 · Todos los derechos reservados.</p>
+        </div>
+    </section>
+
+
+    <script src="paginaprincipal.js"> </script>
+    <script src="./carrito.js"></script>
+
+</body>
+</html>
