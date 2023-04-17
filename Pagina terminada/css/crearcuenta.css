@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@200;300;400;500&display=swap');
+@import url(nav.css);
+@import url(footer.css);
+@import url(reset.css);
+
+ #msform {
+   width: 500px;
+   margin: 0 auto;
+   text-align: center;
+   position: relative;  
+ }
+
+ #msform fieldset {
+
+   border: 0 none;
+   border-radius: 3px;
+   padding: 50px 70px;
+   box-sizing: border-box;
+   width: 80%;   
+   position:relative;
+ }
+
+ #msform fieldset:not(:first-of-type) {
+   display: none;
+ }
+
+ #msform input, #msform textarea {
+   padding: 15px;
+   border: 3px solid #000000;
+   border-radius: 10px;
+   margin-bottom: 15px;
+   width: 100%;
+   box-sizing: border-box;  
+   color: #2C3E50;
+   font-size: 13px;
+   box-shadow: 6px 6px#000;
+   outline: none;
+ }
+
+ #msform .action-button {
+  font-size: 15px;
+  font-family:Plus Jakarta Sans;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -0.02em;    
+  border-radius: 10px;  
+  box-shadow: 6px 6px#000;
+  cursor: pointer;
+   width: 150px;
+   background: #fbc31a;
+   font-weight: bold;   
+   padding: 10px 5px;
+   margin: 15px 5px;
+   
+ }
+
+ #msform .action-button:hover, #msform .action-button:focus {
+  background-color: #ee3c1e;
+ }
+
+ .fs-title {
+  color: #1A202C;
+  letter-spacing: -0.02em;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-bottom: 10px;   
+ }
+
+ .fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+ }

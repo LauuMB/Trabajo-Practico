@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@200;300;400;500&display=swap');
+@import url(productos.css);
+@import url(footer.css);
+@import url(nav.css);
+@import url(reset.css);
+
+
+
+
+/* parte azul mas logos y seccion nosotras */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{    
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+header{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-titulo{    
+  display: flex;
+  align-items: center;
+  padding: 200px 0 150px 0;
+  justify-content: space-between;
+}
+
+
+.textLeft{
+  padding-right: 25px 0 0 0;
+  font-family: 'Bebas Neue';
+  font-size: 70px;
+  line-height: 90px;
+  color: #FFFFFF;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contenedorbanner { 
+  background-color: #1586c2;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.buttonBuy{ 
+  display: inline-block;
+  margin-left: 40%;
+  display: flex;  
+  cursor: pointer;  
+  font-family:'Bebas Neue';
+  font-size: 60px;
+  line-height: 80px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  box-shadow: 16px 15px 0px -2px rgba(0,0,0,1);
+}
+
+
+.buttonBuy:hover{
+  background: #EF3C1E;    
+  color: #fdfdfd;
+}
+
+
+/* logos editoriares */
+
+#marcas {
+  max-width: 1200px;
+  margin-top: 0 auto;
+}
+
+.containerMarks{
+  background-image: url("https://i.ibb.co/kqsgQ7q/fondohistorietas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.titleMarks {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 ;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+ 
+/* aca podria llamar al h2 (.titleMarks h2) para modificar solo el h2 y no todo el div */
+
+
+.logoMarks {
+  display: flex;
+  padding: 50px 50px 50px ;
+  justify-content: space-between;
+}
+
+
+.logoMarvel {  
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logoDc {  
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logoLrings{  
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logoIvrea {
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logoStarwars{  
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* seccion nosotras */
+
+.nosotras{
+  padding: 150px 20px 150px 20px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.imgLauLeft{  
+  width: 250px;
+  height: 300px;
+  border: 5px solid #000000;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 7px;
+}
+
+
+.imgRoRight{ 
+  width: 240px;
+  height: 300px;
+  border: 5px solid #000000;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 7px;
+}
+
+.containertitleMidle{
+  justify-content: space-around;  
+  box-sizing: border-box; 
+  width: 500px;
+  height: 80px;
+  background: #FBC31A;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  box-shadow: 16px 15px 0px -2px rgba(0,0,0,1);
+}
+
+
+.titleYellow  h2 {
+  padding: 8px 3px 0;
+  font-family:'Bebas Neue';  
+  font-size: 37px;
+  line-height: 150%;
+  display:flex;
+  align-items:center;
+  text-align:center;  
+  color: #ffffff;
+}
+
+.containertitleMidle div p {   
+  padding: 50px 5px 5px;
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items:center;
+  text-align:center;
+  color: #000000;
+}

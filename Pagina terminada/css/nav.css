@@ -1,0 +1,55 @@
+/* contenido de la parte de arriba solo header mas nav */
+
+
+.nav-container {
+    height: 100px;
+    background: #fbc31a ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 0 50px;
+    color: #1586c2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logonav{
+    width: 120px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  .menu a {
+    color: #1586c2;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    padding: 0 10px;
+    transition: 0.4s;
+  }
+  
+  .mostrar-menu,
+  .esconder-menu{
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+    transition: 0,4s;
+  }
+  
+  .mostrar-menu{
+    order: 1;
+  }
+    
+  
+  .menu a:hover,
+  .mostrar-menu:hover,
+  .esconder-menu:hover {
+    color:#1A202C;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  /* fin del nav */
+  

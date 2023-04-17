@@ -1,97 +1,103 @@
 <!DOCTYPE html>
-<html lang="e">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comic Store</title>
-    <link rel="stylesheet" href="paginaprincial.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> -->
+    <link rel="website icon" type="png" href="https://i.ibb.co/8gvQjhd/logo.png">
+    <link rel="stylesheet" href="css/paginaprincial.css">    
 
 </head>
 <body>
 
+    
     <header>                  
-        
-        <img class="logonav" src="https://i.ibb.co/CKCSnrM/logo.png" alt="">
-        <!-- <h2 class="logo">Comic Store</h2>  -->
-        <input type="checkbox" id="check">    
-        <label for="check" class="mostrar-menu">
-            &#8801
-        </label>  
+        <div class="nav-container">  
+            <!-- si se rompe el div sacr la clase nav-container -->            
+            <img class="logonav" src="https://i.ibb.co/CKCSnrM/logo.png" alt="">        
+            <input type="checkbox" id="check">    
+            <label for="check" class="mostrar-menu">
+                &#8801
+            </label>  
 
-        <nav class="menu">
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">nosotros</a>
-            <a href="#">Iniciar Sesión</a>
-            <label for="check" class="esconder-menu">
-                &#215
+            <nav class="menu">     
+                <a href="index.html">Inicio</a>
+                <a href="#tabcomics">Productos</a>
+                <a href="#personas">nosotros</a>
+                <a href="../Pagina terminada/paginas/login.html">Iniciar Sesión</a>
+                <label for="check" class="esconder-menu">
+                    &#215
             </label>                      
-        </nav>              
-    
-    </header>    
-
-     <!-- seccion logos y nosotras -->
-
-    <main>
-        <div class="containerTitulo">
-            <img src="https://i.ibb.co/8gvQjhd/logo.png" alt="logo" class="logo2">
-        
-            <div class="textLeft">
-                <p>¡Descubrí todos nuestros productos!</p>
-            </div>
-            
-            <img src="https://i.ibb.co/d4bSm9q/imagenok.jpg" alt="pictureRight" class="pictureRight">
-    
-            <div class="boxPictureCenter">
-                <img src="https://i.ibb.co/wBR1RJm/logo8.png" alt="" class="pictureCenter">
-            </div>
-
-            <button class="buttonBuy">¡Compra acá!</button>
-            
+          </nav>        
         </div>
 
+           <!-- seccion del banner azul -->
+        <div class="containerTitulo">            
+
+            <div class="contenedorbanner"> 
+                <img src="https://i.ibb.co/LJ2f3MT/imagenok-sinfondo.png"class="imagen-ok"> 
+                <div class="textLeft">
+                    <p>¡Descubrí todos nuestros productos!</p>
+                    <a href="../Pagina terminada/carritoRo/carritoro.html"><button class="buttonBuy">¡Compra acá!</button></a>
+                    
+                    
+                     
+                </div>                  
+            </div>
+
+        </div>       
+        
+    </header>    
+
+
+    <!-- seccion de las marcas (logos) -->
+
+    <section id="marcas">
+
         <div class="containerMarks">
-
-            <img src="https://i.ibb.co/SwRBSzS/storage-emulated-0-Pictures-comica-cartoon1681362173270.jpg" alt="imgLau" class="imgLauLeft">
-            
-            <img src="https://i.ibb.co/WzNK4bd/avatarRo.jpg" alt="imgRo" class="imgRoRight">
-
             <div class="titleMarks">
                 <h2>Nuestras editoriales</h2>
             </div>
+
             <div class="logoMarks">
-                <img src="https://i.ibb.co/84qWDX9/logo1.png" alt="logoDc" class="logoDc">
-                <img src="https://i.ibb.co/hybh755/logo3.png" alt="logoMarvel" class="logoMarvel">
-                <img src="https://i.ibb.co/KV3fKBm/logo4.png" alt="logoLordrings" class="logoLordrings">
-                <img src="https://i.ibb.co/P4vyxPN/logo2.png" alt="logoIvrea" class="logoIvrea">
-                <img src="https://i.ibb.co/k6pzNBm/logo7.png" alt="logoStarwars" class="logoStarwars">
+
+                <div class="dc">
+                    <img src="https://i.ibb.co/84qWDX9/logo1.png" class="logoDc">
+                </div>
+
+                <div class="marvel">
+                <img src="https://i.ibb.co/hybh755/logo3.png" class="logoMarvel" >
+                </div>
+
+                <div class="lrings">
+                    <img src="https://i.ibb.co/KV3fKBm/logo4.png" class="logoLrings">
+                </div>
+
+                <div class="ivrea">
+                    <img src="https://i.ibb.co/P4vyxPN/logo2.png" class="logoIvrea" >
+                </div>
+
+                <div class="starwars">
+                    <img src="https://i.ibb.co/k6pzNBm/logo7.png" class="logoStarwars">                    
+                </div>
+            
             </div>
         </div>
 
-        <div class="containertitleMidle">
-            <div class="titleYellow">
-                <h2>¡¡RECORDA SEGUIRNOS EN REDES SOCIALES PARA OFERTAS Y MAS!!</h2>
-            </div>
+    </section>
 
-            <div class="textYellow">
-                <p> Somos Lau y Ro, alumnas de Introdución a la programación de la UTN, gracias por visitar nuesta pagina, decinos que te parecio en un mensaje abajo estan los canales de contacto.</p>
-            </div>
-        </div>
 
-    </main>
+
 
 
     <!-- seccion productos -->
 
-    <main class="product-menu">
+    <main class="product-menu" id="tabcomics">
         <div class="container">
-
             
             <div class="product">
-                <h2 class="title">Mira todo lo que tenemos para 0frecerte</h2>           
+                <h2 class="title">De lo mas buscado en</h2>           
             </div>
 
             <!-- este div contendria la seccion de las pestañas -->
@@ -601,10 +607,36 @@
                 </center>
             </div>
 
-
-
         </div>
+
+
     </main>
+    
+
+
+
+    <section id="personas"> 
+        <div class="nosotras"> 
+
+            <img src="https://i.ibb.co/Sm8BhJF/avatar-Lau.jpg" alt="imgLau" class="imgLauLeft">              
+            
+            <div class="containertitleMidle">
+                <div class="titleYellow">
+                    <h2>¡¡RECORDA SEGUIRNOS EN REDES SOCIALES!!</h2>
+                </div>                
+    
+                <div class="textYellow">
+                    <p> Somos Lau y Ro, alumnas de Introdución a la programación de la UTN, gracias 
+                        por visitar nuesta pagina, decinos que te parecio en un mensaje abajo 
+                        estan los canales de contacto.</p>
+                </div>
+            </div> 
+
+            <img src="https://i.ibb.co/JxJnnJF/avatarRo.jpg" alt="imgRo" class="imgRoRight">
+
+        </div>  
+ 
+    </section>  
 
 
 
@@ -612,22 +644,22 @@
     <!-- footer -->
 
     <footer class="footer container">
-        <img class="logo-2" src="https://i.ibb.co/CKCSnrM/logo.png" alt="logo de la empresa">
+        <img class="logofinal" src="https://i.ibb.co/CKCSnrM/logo.png">
         <div class="links">         
             <h4>Consultas</h4>
             <ul>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="#">Como comprar</a></li>
-                <li><a href="#">Inicia sesión</a></li>
-                <li><a href="#">Novedades</a></li>
+                <li><a href="#personas">Quienes somos</a></li>
+                <li><a href="./paginas/404.html">Como comprar</a></li>
+                <li><a href="/Pagina terminada/paginas/login.html">Inicia sesión</a></li>
+                <li><a href="/Pagina terminada/paginas/login.html">Craer Cuenta</a></li>
             </ul>
         </div>
         <div class="links">
-            <h4>Contacto</h4>
+            <h4 id="contacto">Contacto</h4>
             <ul>
-                <li><a href="#">comicstore@gmail.com</a></li>
-                <li><a href="#">Av. Siempreviva 742</a></li>
-                <li><a href="#">Tel: +54 939-636</a></li>                
+                <li><a href="mailto:comicstore@cgmail.com">comicstore@gmail.com</a></li>
+                <li><a href="https://www.google.com/maps/@28.4785769,-81.4680765,2a,75y,91.35h,83.94t/data=!3m6!1e1!3m4!1sicU_2gp9kCM-j6bpUTQecg!2e0!7i13312!8i6656" target="_blank">Av. Siempreviva 742</a></li>
+                <li><a href=" https://wa.me/+54939636" target="_blank">Tel: +54 939-636</a></li>                
             </ul>
         </div>
 
@@ -636,19 +668,19 @@
         <div class="links">
             <h4>Redes</h4>
             <div class="socials">
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/" target="_blank">
                     <div class="social">
-                        <img src="./imagenes/s3.svg" alt="">
+                        <img src="./iconos/1instagram.svg" alt="">
                     </div>
                 </a>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/" target="_blank">
                     <div class="social">
-                        <img src="./imagenes/s1.svg" alt="">
+                        <img src="./iconos/2facebook.svg" alt="">
                     </div>
                 </a>
-                <a href="https://twitter.com/">
+                <a href="https://twitter.com/" target="_blank">
                     <div class="social">
-                        <img src="./imagenes/s2.svg" alt="">
+                        <img src="./iconos/3twitter.svg" alt="">
                     </div>
                 </a>
             </div>
@@ -665,9 +697,7 @@
 
 
     <script src="paginaprincipal.js"> </script>
-
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> -->
-
+    
 </body>
+
 </html>

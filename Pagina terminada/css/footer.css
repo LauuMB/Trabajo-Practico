@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@200;300;400;500&display=swap');
+
+/* footer */
+
+
+  footer{
+    background-image: url("https://i.ibb.co/kqsgQ7q/fondohistorietas.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .footer {
+    background-image: url(https://i.ibb.co/kqsgQ7q/fondohistorietas.jpg);
+    background-size: cover;
+    margin-top: 300 auto;
+    padding: 80px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .logofinal {
+    width: 150px;
+  }
+  
+  .socials {
+    display: flex;
+  }
+  
+  .social {
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+  
+  .social:hover {
+    background-color: #bfc7c9;
+  }
+  
+  .social img {
+    margin: 8px 8px 10px 10px;
+  }
+  
+  
+  
+  .links h4 {
+    color:#000000;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background:#ffffff ;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    margin: 8px;
+    padding: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+  
+  
+  }
+  
+  .links ul li a {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  .copy {
+    background-color: #FBC31A;
+    height: 50px;
+    margin: 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  /* fin del footer */
+  
+  
+  
+  
+  

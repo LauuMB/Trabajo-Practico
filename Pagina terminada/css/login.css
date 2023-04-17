@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@200;300;400;500&display=swap');
+@import url(nav.css);
+@import url(footer.css);
+@import url(reset.css);
+  
+
+.titulo{
+    display: flex;    
+    justify-content: center;
+}
+
+
+
+form {    
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 200px 200px 200px 150px;
+}
+
+
+
+#chico{
+    display: flex;    
+    width: 300px;    
+    border: 5px solid #000000;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+}
+
+
+.imput-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2 {
+    color: #1A202C;
+    letter-spacing: -0.02em;
+    font-size: 25px;
+    padding: 0px 120px 50px;
+}
+
+label {
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 12px 21px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #000;
+    color: #1A202C;
+    box-shadow: 6px 6px #000;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #757777;
+    }
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: #FBC31A;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.form-txt a:hover {
+    color: #ee3c1e;}
+
+
+.btn {
+    font-size: 20px;
+    font-family:Plus Jakarta Sans;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: -0.02em;    
+    border-radius: 10px;
+    background-color: #FBC31A;
+    box-shadow: 6px 6px#000;
+    cursor: pointer;
+    font-weight: bold; 
+ }
+
+.btn:hover {
+    background-color: #ee3c1e;
+}
+

@@ -1,0 +1,27 @@
+/* aca voy a poner un reset y parametros generales que
+se van a aplicar en la mayoria de los .css  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@200;300;400;500&display=swap');
+
+
+
+/* tipografias : */
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Plus Jakarta Sans', sans-serif; */
+
+
+
+ /* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{    
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
