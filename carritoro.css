@@ -1,7 +1,4 @@
-
-
-
-  article,
+ article,
   aside,
   details,
   figcaption,
@@ -218,18 +215,81 @@
       font-weight: 700;
   }
 
+  /* contenido de la parte de arriba solo header mas nav */
+header {
+  height: 100px;
+  background: #fbc31a ;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  padding: 0 50px;
+  color: #1586c2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logonav{
+  width: 120px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.menu a {
+  color: #1586c2;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+
+
+.mostrar-menu,
+.esconder-menu{
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+  transition: 0,4s;
+}
+
+.mostrar-menu{
+  order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover {
+  color:#1A202C;
+}
+
+#check {
+  display: none;
+}
+
+/* fin del nav */
+
+  /* header {
+      padding: 20px 0 0 0;
+      background: white;
+      text-align: right;
+  } */
+
   .containerHeader {
     position: relative;
     width: 100%;
     max-width: 5px;
+    /* margin: 0 auto; */
     padding: 0 20px;
     box-sizing: border-box;
 
     }
 
+
   @media (min-width: 750px) {
       header {
           text-align: right;
+        
       }
   }
   .borrar-curso {
@@ -529,8 +589,8 @@
   .u-pull-left {
     float: left; }
 
-  .container:after,
-  .row:after,
+  /*.container:after,
+   .row:after, */
   .u-cf {
     content: "";
     display: table;
@@ -546,7 +606,7 @@
   /* Larger than tablet 
   @media (min-width: 750px) {}
 
-  /* Larger than desktop
+  /* Larger than desktop 
   @media (min-width: 1000px) {}
 
   /* Larger than Desktop HD 
@@ -557,59 +617,7 @@
 
 
 
-/* contenido de la parte de arriba solo header mas nav */
-header {
-  height: 100px;
-  background: #fbc31a ;
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
-  padding: 0 50px;
-  color: #1586c2;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-}
-
-.logonav{
-  width: 120px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.menu a {
-  color: #1586c2;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: 'Plus Jakarta Sans';
-  font-weight: 500;
-  padding: 0 10px;
-  transition: 0.4s;
-}
-
-
-.mostrar-menu,
-.esconder-menu{
-  font-size: 40px;
-  cursor: pointer;
-  display: none;
-  transition: 0,4s;
-}
-
-.mostrar-menu{
-  order: 1;
-}
-
-.menu a:hover,
-.mostrar-menu:hover,
-.esconder-menu:hover {
-  color:#1A202C;
-}
-
-#check {
-  display: none;
-}
-
-/* fin del nav */
 
 /* footer */
 
