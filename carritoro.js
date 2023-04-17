@@ -153,6 +153,3 @@ function eliminarCursoLS(curso)
 function vaciarLs() {
     localStorage.clear();
 }
-
-
-
