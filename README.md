@@ -1,5 +1,5 @@
 # Trabajo-Practico
-En este repositorio tenemos el trabajo final pasado a limpio echo por los integrantes que participaron activamente
+En este repositorio tenemos el trabajo final echo por los integrantes que participaron activamente
 
 ✿ Blanco Laura
 ✿ Rocio Creado
