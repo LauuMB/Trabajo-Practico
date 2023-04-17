@@ -1,0 +1,17 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+img{
+    width: 90%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
