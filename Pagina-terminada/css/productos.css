@@ -186,3 +186,36 @@
     color: #fdfdfd;
   }
   
+
+
+/* responsivo */
+  
+@media (max-width: 991px){
+  .product-menu{
+      padding: 30px;
+  }
+
+  .title{
+      margin-bottom: 20px;
+      padding: 10px 20px 50px;
+      
+  }
+
+  .menu-nav{
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .tab {
+      margin-bottom: 25px;
+  }
+
+  .box-container{
+      grid-template-columns: 1fr;
+  }
+
+  .box .image{
+      height: 200px;
+  }
+  
+}  

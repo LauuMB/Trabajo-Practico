@@ -6,8 +6,7 @@
  #msform {
    width: 500px;
    margin: 0 auto;
-   text-align: center;
-   position: relative;  
+   text-align: center;     
  }
 
  #msform fieldset {
@@ -16,8 +15,7 @@
    border-radius: 3px;
    padding: 50px 70px;
    box-sizing: border-box;
-   width: 80%;   
-   position:relative;
+   width: 80%;      
  }
 
  #msform fieldset:not(:first-of-type) {
