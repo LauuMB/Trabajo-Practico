@@ -70,3 +70,16 @@
   color: #666;
   margin-bottom: 20px;
  }
+
+
+ @media (max-width: 991px){
+  #msform{
+    width: 100px;
+    display: flex;
+    justify-content: center;  
+    
+  }
+
+ 
+
+ }
